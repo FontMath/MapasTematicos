@@ -48,7 +48,7 @@ public class MapGenerator {
         texto += fin();
         System.out.print(texto);
         try (Writer writer = new BufferedWriter(new OutputStreamWriter(
-              new FileOutputStream("mapaTematicoEnXML.xml"), "utf-8"))) {
+              new FileOutputStream("mapaTematicoEnXML.htym.xtm"), "utf-8"))) {
             writer.write(texto);
 }       catch (IOException ex) {
             Logger.getLogger(MapGenerator.class.getName()).log(Level.SEVERE, null, ex);
